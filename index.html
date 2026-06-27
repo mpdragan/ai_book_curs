@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ШІ 2026 — Базовий курс машинного навчання</title>
+<meta name="description" content="Базовий курс ШІ 2026: машинне навчання, регресія, класифікація, нейронні мережі, CNN, RNN, трансформери та практичні проекти.">
+<meta name="keywords" content="AI, ШІ курс, машинне навчання, Python, нейронні мережі, Kaggle, регресія">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0b1020;
+        color: #fff;
+    }
+
+    header {
+        background: linear-gradient(90deg, #00c6ff, #0072ff);
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 42px;
+    }
+
+    header p {
+        font-size: 18px;
+        opacity: 0.9;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .section {
+        margin: 40px 0;
+    }
+
+    h2 {
+        border-left: 5px solid #00c6ff;
+        padding-left: 10px;
+    }
+
+    .card {
+        background: #151b33;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 15px;
+    }
+
+    .lesson {
+        background: #1c2445;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .lesson:hover {
+        transform: scale(1.03);
+        background: #26315a;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background: #00c6ff;
+        color: #000;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        opacity: 0.7;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ШІ 2026</h1>
+    <p>Базовий курс машинного навчання, нейромереж і реальних AI-проєктів</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📘 Про курс</h2>
+        <div class="card">
+            Цей курс навчить тебе основам штучного інтелекту: від лінійної регресії до трансформерів.
+            Практика включає Kaggle, агро задачі, класифікацію та NLP.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>1. Вступ в ШІ</h2>
+        <div class="grid">
+            <div class="lesson">Машинне навчання (ML)</div>
+            <div class="lesson">Глибинне навчання (DL)</div>
+            <div class="lesson">Алгоритми ML</div>
+            <div class="lesson">Рівняння прямої</div>
+            <div class="lesson">Лінійна регресія</div>
+        </div>
+
+        <div class="card">
+            📌 Проект: ймовірність захворіти залежно від сну та фізичної активності
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>2. Лінійна регресія (готова модель)</h2>
+        <div class="card">
+            📊 Практика: прогноз урожаю яблук на основі попередніх років (агро бізнес задача)
+            <a class="btn" href="#">Почати</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Теорія регресії</h2>
+        <div class="grid">
+            <div class="lesson">Параметри w, b</div>
+            <div class="lesson">Loss функція</div>
+            <div class="lesson">MSE</div>
+            <div class="lesson">Градієнтний спуск</div>
+            <div class="lesson">Гіперпараметри</div>
+        </div>
+
+        <div class="card">
+            📌 Проект: власна модель прогнозу в агро задачі
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Класифікація</h2>
+        <div class="grid">
+            <div class="lesson">Логістична регресія</div>
+            <div class="lesson">Sigmoid функція</div>
+            <div class="lesson">Binary Cross Entropy</div>
+            <div class="lesson">Kaggle Titanic</div>
+            <div class="lesson">Аналіз даних</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Нейронні мережі</h2>
+        <div class="grid">
+            <div class="lesson">Перцептрон</div>
+            <div class="lesson">MLP</div>
+            <div class="lesson">AND / OR</div>
+            <div class="lesson">XOR проблема</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>6. CNN</h2>
+        <div class="card">
+            Згорткові нейронні мережі для зображень.
+            Практика: MNIST (розпізнавання цифр)
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>7. RNN</h2>
+        <div class="card">
+            Рекурентні мережі для тексту.
+            NLP практика: мовні моделі
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>8. Трансформери</h2>
+        <div class="grid">
+            <div class="lesson">Self-Attention</div>
+            <div class="lesson">Transformers</div>
+            <div class="lesson">Hugging Face</div>
+            <div class="lesson">Реальні AI проекти</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Фінал курсу</h2>
+        <div class="card">
+            Після курсу ти зможеш створювати власні моделі, працювати з даними, 
+            будувати нейронні мережі та робити реальні AI-проекти.
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    ШІ 2026 курс • Machine Learning Academy • GitHub Pages
+</footer>
+
+</body>
+      </html>
